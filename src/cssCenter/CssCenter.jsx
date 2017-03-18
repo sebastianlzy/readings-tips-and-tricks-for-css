@@ -7,9 +7,9 @@ import CenterVerticalInline from './CenterVerticalInline';
 
 class CssDisplay extends React.Component {
   state = {
-    isCssHorizontalCenterInlineVisible: true,
-    isCssHorizontalCenterBlockVisible: true,
-    isCssVerticalCenterBlockVisible: true,
+    isCssHorizontalCenterInlineVisible: false,
+    isCssHorizontalCenterBlockVisible: false,
+    isCssVerticalCenterBlockVisible: false,
   };
 
   toggleVisibility = (sectionName) => () => {
