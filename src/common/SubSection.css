@@ -1,0 +1,20 @@
+.sub-section {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.sub-section:hover {
+  opacity: 1;
+}
+
+.sub-section > .is-hidden {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  position: absolute;
+  z-index: -100;
+  left: -9999px;
+}
+
+.sub-section > .is-visible {
+  transition: opacity 0.3s ease-in-out;
+}

@@ -1,0 +1,39 @@
+.title.font-size-4 {
+  padding-top: 10px;
+}
+
+.font-size-1 {
+  font-size: 3rem;
+}
+
+.font-size-4 {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+}
+
+.is-one-third {
+  width: 33.333%;
+  float: left;
+}
+
+.display-inline {
+  display: inline;
+}
+
+.display-block {
+  display: block
+}
+
+.display-block-inline {
+  display: inline-block;
+}
+

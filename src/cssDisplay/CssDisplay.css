@@ -1,0 +1,7 @@
+.display-section .display-block-inline {
+  width: calc(100% - 12px);
+}
+
+.display-section .display-block-inline:nth-child(-n+3) {
+  width: calc((100% / 3) - 12px);
+}

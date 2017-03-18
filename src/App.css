@@ -1,0 +1,32 @@
+.sub-section {
+  padding: 10px;
+  min-height: 20px;
+}
+
+.block {
+  background-color: hsl(171, 100%, 41%);
+  color: #fff;
+  border: 5px solid #fff;
+  border-width: thin;
+  padding: 5px;
+}
+
+.sub-title {
+  font-weight: 700;
+}
+
+.sub-content {
+  padding: 10px;
+}
+
+.example-section {
+  padding: 10px 0;
+  border: 5px solid hsl(171, 100%, 41%);
+  border-width: thin;
+  margin-top: 10px;
+}
+
+.explanation-section {
+  padding: 5px 0px;
+  color: hsl(0, 0%, 48%);
+}
