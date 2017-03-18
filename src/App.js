@@ -24,11 +24,9 @@ class App extends Component {
             <li>Centering of element</li>
           </ol>
         </section>
-        <hr/>
         <Motivation/>
         <hr/>
         <CssDisplay/>
-        <hr/>
         <CssCenter/>
       </div>
     );

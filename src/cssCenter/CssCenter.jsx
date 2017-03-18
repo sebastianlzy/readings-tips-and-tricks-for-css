@@ -45,7 +45,7 @@ class CssDisplay extends React.Component {
           <CenterHorizontalBlock/>
         </SubSection>
         <SubSection
-          title='vertical | padding'
+          title='vertical | inline'
           onClick={this.toggleVisibility('CssVerticalCenterBlock')}
           isDemoShown={this.state.isCssVerticalCenterBlockVisible}
         >
