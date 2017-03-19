@@ -5,7 +5,7 @@ import SelectorSymbols from './SelectorSymbols';
 
 class CssSpecificity extends React.Component {
   state = {
-    isCssNthChildVisible: true,
+    isCssNthChildVisible: false,
   };
 
   toggleVisibility = (sectionName) => () => {
