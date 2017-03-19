@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
+import '../node_modules/prismjs/prism'
+import '../node_modules/prismjs/themes/prism.css'
 import Motivation from './motivation/Motivation';
 import CssDisplay from './cssDisplay/CssDisplay';
 import CssCenter from './cssCenter/CssCenter';
+import CssSpecificity from './cssSpecificity/CssSpecificity';
 import './App.css';
 import './Utility.css';
 
@@ -17,6 +20,7 @@ class App extends Component {
             Cascading Style Sheets
           </div>
         </header>
+        <Motivation/>
         <section>
           <div className="font-size-1">Content</div>
           <ol>
@@ -24,10 +28,10 @@ class App extends Component {
             <li>Centering of element</li>
           </ol>
         </section>
-        <Motivation/>
         <hr/>
         <CssDisplay/>
         <CssCenter/>
+        <CssSpecificity/>
       </div>
     );
   }

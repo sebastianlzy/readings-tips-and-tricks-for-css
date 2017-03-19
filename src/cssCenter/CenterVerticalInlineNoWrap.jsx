@@ -2,24 +2,11 @@ import React, {PropTypes} from 'react';
 
 import Explanation from '../common/Explanation';
 
-class CenterVerticalInline extends React.Component {
+class CenterVerticalInlineNoWrap extends React.Component {
 
   render() {
     return (
       <div>
-        <div className="example-section">
-          <div className="center-vertical-inline">
-            <span className='block'>inline</span>
-            <span className='block'>inline</span>
-            <span className='block'>inline</span>
-          </div>
-        </div>
-        <div className="explanation-section">
-          <Explanation
-            title={'note'}
-            content={`there is equal padding above and below them`}
-          />
-        </div>
         <div className="example-section">
           <div className="center-vertical-inline-nowrap">
             <span className='block'>inline</span>
@@ -43,5 +30,5 @@ class CenterVerticalInline extends React.Component {
 }
 ;
 
-export default CenterVerticalInline;
+export default CenterVerticalInlineNoWrap;
 

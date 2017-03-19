@@ -11,7 +11,7 @@
   width: calc(50% - 12px);
 }
 
-.css-center-section .center-vertical-inline {
+.css-center-section .center-vertical-inline-padding {
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -22,3 +22,29 @@
   white-space: nowrap;
 }
 
+.css-center-section .center-vertical-block-fixed-height .position-relative {
+  height: 300px;
+  max-width: 300px;
+}
+
+.css-center-section .center-vertical-block-fixed-height .position-absolute {
+  top: 50%;
+  left: 50%;
+  height: 100px;
+  width: 148px;
+  margin-top: -53px;
+  margin-left: -80px;
+}
+
+.css-center-section .center-vertical-block-unknown-height .position-relative {
+  height: 300px;
+  max-width: 300px;
+}
+
+.css-center-section .center-vertical-block-unknown-height .position-absolute {
+  top: 50%;
+  left: 50%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  transform: translate(-50%, -50%) ;
+}

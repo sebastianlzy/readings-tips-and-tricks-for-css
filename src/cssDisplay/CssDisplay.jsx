@@ -31,21 +31,21 @@ class CssDisplay extends React.Component {
           </ol>
         </div>
         <SubSection
-          title='display:block'
+          title='{display:block}'
           onClick={this.toggleVisibility('DisplayBlock')}
           isDemoShown={this.state.isDisplayBlockVisible}
         >
           <DisplayBlock/>
         </SubSection>
         <SubSection
-          title='display:inline'
+          title='{display:inline}'
           onClick={this.toggleVisibility('DisplayInline')}
           isDemoShown={this.state.isDisplayInlineVisible}
         >
           <DisplayInline/>
         </SubSection>
         <SubSection
-          title='display:inline-block'
+          title='{display:inline-block}'
           onClick={this.toggleVisibility('DisplayInlineBlock')}
           isDemoShown={this.state.isDisplayInlineBlockVisible}
         >

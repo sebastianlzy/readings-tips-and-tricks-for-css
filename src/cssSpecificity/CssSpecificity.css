@@ -1,0 +1,15 @@
+.specificity-understanding-symbols .child{
+  color: hsl(48, 100%, 67%);
+}
+
+.specificity-understanding-symbols > .parent{
+  color: hsl(348, 100%, 61%);
+}
+
+.specificity-understanding-symbols .child + .sibling{
+  color: hsl(271, 100%, 71%);
+}
+
+.specificity-understanding-symbols .grand-child ~ .sibling{
+  color: hsl(271, 100%, 71%);
+}

@@ -13,9 +13,11 @@ class SubSection extends React.Component {
     const className = this.props.isDemoShown ? 'is-visible' : 'is-hidden';
     return (
       <div className='sub-section'>
-        <code onClick={this.props.onClick}>
-          {this.props.title}
-        </code>
+        <pre>
+          <code onClick={this.props.onClick} className="language-css">
+            {this.props.title}
+          </code>
+        </pre>
         <div className={className}>
           {this.props.children}
         </div>
